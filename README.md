@@ -1,31 +1,30 @@
 # PINN-Bioreactor-Simulation
-Simulation d’un bioréacteur avec PINN
-# 🧠 Simulation d’un bioréacteur avec PINN
+#  Simulation d’un bioréacteur avec PINN
 
 Ce projet implémente un **Physics-Informed Neural Network (PINN)** pour résoudre une équation de transport-réaction.
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Simuler l’évolution d’une concentration chimique dans un bioréacteur sans données expérimentales, en utilisant uniquement les lois physiques.
 
 ---
 
-## 📊 Résultats
+##  Résultats
 
-### 🔵 Solution PINN
+###  Solution PINN
 ![PINN](outputs/reference_pinn.png)
 
-### 📉 Convergence du modèle
+### Convergence du modèle
 ![Loss](outputs/reference_loss.png)
 
-### ⚖️ Comparaison PINN vs méthode classique
+### Comparaison PINN vs méthode classique
 ![Comparaison](outputs/reference_comparison.png)
 
 ---
 
-## 🔬 Étude paramétrique
+## Étude paramétrique
 
 ### Diffusion élevée
 ![Diffusion](outputs/diffusion_high_pinn.png)
@@ -35,7 +34,7 @@ Simuler l’évolution d’une concentration chimique dans un bioréacteur sans 
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - PyTorch
@@ -44,7 +43,7 @@ Simuler l’évolution d’une concentration chimique dans un bioréacteur sans 
 
 ---
 
-## ▶️ Exécution
+## Exécution
 
 ```bash
 python main.py
